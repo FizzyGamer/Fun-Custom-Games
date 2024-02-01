@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UT-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="descriptiom" content="Free custom online games!" />
+
+    <title>Online games</title>
+
+    <style>
+      body {
+        height: 100%;
+        background-color: lime;
+        background-image: linear-gradient(to bottom right, cyan, lime);
+        font-family: "Trebuchet MS", Tahoma, sans-serif;
+      }
+
+      div.Game {
+        height: 400px;
+        width: 400px;
+        border-radius: 78px;
+        padding: 35px;
+        margin: 15px;
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(94, 248, 94),
+          rgb(99, 243, 243)
+        );
+      }
+
+      img.Game {
+        border-radius: 25px;
+        height: 306px;
+        width: 406px;
+      }
+
+      p.Text,
+      div.Title {
+        text-align: center;
+        font-size: 20px;
+      }
+
+      main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      @media screen and (max-width: 600px) {
+        aside,
+        * {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="Title">
+      <h1 style="font-size: 50px"><u>Free games below</u></h1>
+      <p style="font-size: 10px">Enjoy!</p>
+    </div>
+
+    <main>
+      <div class="Game">
+        <p class="Text">
+          Click the image for a Platformer game with 9 levels + 1 secret level!
+        </p>
+        <a href="https://arcade.makecode.com/S07585-98893-96118-17469">
+          <img
+            class="Game"
+            src="Imgs/Platformer.png"
+            alt="Click for Platformer game!"
+          />
+        </a>
+      </div>
+
+      <div class="Game">
+        <p class="Text">Click the image below for a fun crossy road game!</p>
+        <a href="https://arcade.makecode.com/S97099-50405-25817-49176">
+          <img
+            class="Game"
+            src="Imgs/CrossyRoad.png"
+            alt="Click for Crossy Road game!"
+          />
+        </a>
+      </div>
+
+      <div class="Game">
+        <p class="Text">
+          Click the image below for a difficult flappy bird game!
+        </p>
+        <a href="https://arcade.makecode.com/S69232-13486-51846-64036">
+          <img
+            class="Game"
+            src="Imgs/FlappyBird.png"
+            alt="Click for Flappy Bird game!"
+          />
+        </a>
+      </div>
+
+      <div class="Game">
+        <p class="Text">Click the image below to run from the tacos!</p>
+        <a href="https://arcade.makecode.com/S17006-81686-34747-16101">
+          <img
+            class="Game"
+            src="Imgs/RunFromTaco.png"
+            alt="Click for Run From Taco game!"
+          />
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
